@@ -5,6 +5,6 @@ while :; do
   while [[ -e $n ]]; do
     n=${n%-*}.png
   done
-  ./imagesnap -w -q 1 $n
+  ./imagesnap -q -w 1 $n
   sleep 60
 done
